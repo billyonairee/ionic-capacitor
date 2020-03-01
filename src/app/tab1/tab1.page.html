@@ -1,17 +1,15 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-header>
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+        <ion-title>
+            IONIC CAPACITOR DEMO
+        </ion-title>
     </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-header>
+<ion-content padding>
+    <div *ngIf="photo">
+        <img [src]="photo">
+    </div>
+    <ion-button (click)="takePicture()">
+        TAKE PICTURE
+    </ion-button>
 </ion-content>

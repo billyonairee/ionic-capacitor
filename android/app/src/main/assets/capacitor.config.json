@@ -1,0 +1,8 @@
+{
+  "appId": "com.ionicCapacitor.ionicCapacitor",
+  "appName": "ionic-capacitor",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
